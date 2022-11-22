@@ -10,7 +10,7 @@ s = ""
 for x in num:
     s += x
 numbers = np.array(list(s))
-numbers = np.reshape( numbers, (N, 9)) #crate matrix
+numbers = np.reshape( numbers, (N, 9)) #create matrix
 #print(numbers.shape)
 
 next_number = ""
